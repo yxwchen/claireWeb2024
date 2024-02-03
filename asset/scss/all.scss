@@ -1,0 +1,12 @@
+// Import all of Bootstrap's CSS
+@import "../scss/bootstrap5.3.2/functions"; // 必要的方法
+@import "./variables"; //客製化的變數檔
+@import "./variables-dark"; //客製化的變數檔
+@import "../scss/bootstrap5.3.2/mixins"; // 必要的方法
+@import "../scss/bootstrap5.3.2/bootstrap"; // 必要的方法
+@import "./mixin"; //客製化的mixin檔
+@import "./animation";
+@import "./site"; //客製化的site檔
+@import "./utilities";
+@import "./component";
+@import "./about";

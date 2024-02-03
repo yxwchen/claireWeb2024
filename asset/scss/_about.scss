@@ -1,0 +1,133 @@
+/* 以下為基礎設定 */
+body#gsap {
+    overflow-x: hidden;
+    // background-color: #fff;
+    min-height: 100vh;
+}
+
+// header {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     padding: 30px 100px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     z-index: 1000;
+// }
+
+// .logo {
+//     color: #112434;
+//     font-weight: 700;
+//     font-size: 2rem;
+//     text-decoration: none;
+// }
+
+// .nav {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 40px;
+
+//     li {
+//         list-style: none;
+
+//         a {
+//             text-decoration: none;
+//             padding: 6px 12px;
+//             color: #112434;
+//             border-radius: 20px;
+
+//             &:hover {
+//                 background-color: #112434;
+//                 color: #fff;
+//             }
+//         }
+//     }
+// }
+
+// .nav li a.active {
+//     background-color: #112434;
+//     color: #fff;
+// }
+
+// h2 {
+//     color: #112434;
+//     font-size: 3rem;
+//     font-weight: 700;
+// }
+
+
+// skillsBg
+.gradientBg {
+    background: linear-gradient(#7A73C5, #FFEAEA);
+}
+
+
+// 視差滾動區塊
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        pointer-events: none; //當不同圖層疊在一起的時候，透過 pointer-events 讓使用者穿過上面的圖層，點擊到下方的子元素。
+    }
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#text2 {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.sec {
+    position: relative;
+    padding: 60px 40px;
+    background-color: #30365F;
+
+    @include device-md {
+        padding: 20px;
+    }
+}
+
+// .text-white {
+//     color: #fff;
+// }
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+#m1 {
+    z-index: 50;
+}
+
+#m2 {
+    z-index: 51;
+}
+
+#m3 {
+    z-index: 52;
+}
+
+#t1 {
+    z-index: 53;
+}
+
+#t2 {
+    z-index: 54;
+}
