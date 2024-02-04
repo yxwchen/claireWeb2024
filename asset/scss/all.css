@@ -15624,6 +15624,7 @@ html {
 body {
   font-family: "Noto Sans CJK TC", "Microsoft JhengHei", PingFang, STHeiti, sans-serif, serif;
   line-height: 1.8;
+  font-size: 1.25rem;
 }
 
 body#resume {
