@@ -15761,6 +15761,12 @@ h1,
   -webkit-text-fill-color: transparent;
 }
 
+.textGradientPrimary {
+  background: -webkit-linear-gradient(0deg, #BDE0FE, #fe869f 15%, #ef7ac8 30%, #a083ed 50%, #43aeff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-gray-500 {
   color: #adb5bd;
 }
@@ -15983,6 +15989,37 @@ ul.timeline > li:before {
   height: 70vh;
 }
 
+#lottieAnimation {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.centerBox {
+  width: 70%;
+  position: absolute;
+  /* ★ */
+  top: 50%;
+  /* ★ */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* ★ */
+}
+
+.infoCard {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /*  小於768 變單欄用scss做  */
+}
+@media (max-width: 768px) {
+  .infoCard {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
 /* 以下為基礎設定 */
 body#gsap {
   overflow-x: hidden;
@@ -16016,7 +16053,7 @@ body#gsap {
 
 #text2 {
   position: absolute;
-  top: 55%;
+  top: 60%;
   transform: translateY(-50%);
 }
 

@@ -33,6 +33,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.textGradientPrimary {
+    background: -webkit-linear-gradient(0deg, $primary, $orange 15%, $pink 30%, $brightPurple 50%, $brightBlue 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .text-gray-500 {
     color: $gray-500;
 }

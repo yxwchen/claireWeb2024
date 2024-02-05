@@ -128,3 +128,38 @@ ul.timeline>li:before {
     margin: 0 auto;
     height: 70vh;
 }
+
+// 首頁Skill區塊樣式
+
+#lottieAnimation {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    // background-color: #fac;
+}
+
+.centerBox {
+    width: 70%;
+    position: absolute;
+    /* ★ */
+    top: 50%;
+    /* ★ */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* ★ */
+
+    // 父元件section須設定相對定位（垂直水平致中★）
+}
+
+.infoCard {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    /*  小於768 變單欄用scss做  */
+    @include device-md {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
