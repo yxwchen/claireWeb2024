@@ -65,7 +65,7 @@ body#gsap {
 }
 
 
-// 視差滾動區塊
+// 視差滾動區塊＝＝＝＝＝＝＝＝＝＝＝＝＝
 .parallax {
     position: relative;
     display: flex;
@@ -84,13 +84,13 @@ body#gsap {
 
 #text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
 }
 
 #text2 {
     position: absolute;
-    top: 60%;
+    top: 40%;
     transform: translateY(-50%);
 }
 

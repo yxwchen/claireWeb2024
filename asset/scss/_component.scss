@@ -47,6 +47,11 @@
     background-color: $white;
     padding-top: 56px;
     margin-left: 16px;
+
+    @include device-sm {
+        font-size: $font-size-base;
+
+    }
 }
 
 // timeline==============================
@@ -135,7 +140,11 @@ ul.timeline>li:before {
     margin: 0 auto;
     width: 200px;
     height: 200px;
+
     // background-color: #fac;
+    @include device-sm {
+        display: none;
+    }
 }
 
 .centerBox {
@@ -156,10 +165,11 @@ ul.timeline>li:before {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 12px 8px;
 
     /*  小於768 變單欄用scss做  */
     @include device-md {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 8px;
     }
 }
