@@ -15770,6 +15770,10 @@ h1,
   color: #adb5bd;
 }
 
+.fillPrimary {
+  fill: #BDE0FE;
+}
+
 .h-50px {
   height: 50px;
 }
@@ -15784,6 +15788,11 @@ h1,
 
 .w-90 {
   width: 90%;
+}
+
+.cube50 {
+  width: 50px;
+  height: 50px;
 }
 
 .top-20 {
